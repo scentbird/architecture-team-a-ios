@@ -73,18 +73,6 @@
 		503FD73721402CC2008905ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5093688420F683030044CA62 /* LaunchScreen.storyboard */; };
 		503FD73921402CC2008905ED /* HHModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5072DD95211D84B800E08A92 /* HHModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		503FD73A21402CC2008905ED /* HHList.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 501AA648211C6C4A002D3264 /* HHList.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5067973A212419970034CDA2 /* HHNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 50679738212419970034CDA2 /* HHNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50679742212419A30034CDA2 /* ARCHLoggerMoyaPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067972F212416B60034CDA2 /* ARCHLoggerMoyaPlugin.swift */; };
-		50679743212419A50034CDA2 /* ARCHSignMoyaPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2648D21231EAE00E3B47A /* ARCHSignMoyaPlugin.swift */; };
-		50679744212419A80034CDA2 /* ARCHAuthObserverMoyaPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D264652121B03B00E3B47A /* ARCHAuthObserverMoyaPlugin.swift */; };
-		50679745212419AB0034CDA2 /* ARCHNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BC80D62121757000D77262 /* ARCHNetworkError.swift */; };
-		50679746212419AD0034CDA2 /* ARCHApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BC80D82121765900D77262 /* ARCHApiResponse.swift */; };
-		50679747212419AF0034CDA2 /* ARCHMoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D264782121FA1400E3B47A /* ARCHMoyaProvider.swift */; };
-		50679748212419B30034CDA2 /* ARCHTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D26461212196B600E3B47A /* ARCHTargetType.swift */; };
-		50679749212419B50034CDA2 /* ARCHNetworkError.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5067972D2124144F0034CDA2 /* ARCHNetworkError.strings */; };
-		5067974A212419B90034CDA2 /* ARCHUserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2647D2122CEA400E3B47A /* ARCHUserStorage.swift */; };
-		5067974B212419BC0034CDA2 /* ARCHKeychainUserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2647F2122CEC400E3B47A /* ARCHKeychainUserStorage.swift */; };
-		5067975121241A7E0034CDA2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5067975021241A7E0034CDA2 /* README.md */; };
 		5067977C21256ED60034CDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5093688420F683030044CA62 /* LaunchScreen.storyboard */; };
 		5067977D21256ED90034CDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5093688220F683030044CA62 /* Assets.xcassets */; };
 		5067977E21256EDE0034CDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093687B20F683010044CA62 /* AppDelegate.swift */; };
@@ -128,27 +116,7 @@
 		5072DDEB211DE83200E08A92 /* HHListExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5072DDE9211DE83200E08A92 /* HHListExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5072DDF5211DE87D00E08A92 /* ARCHTableViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072DDCE211DE06D00E08A92 /* ARCHTableViewController+.swift */; };
 		5072DDF6211DE88100E08A92 /* ARCHDiffCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072DDCC211DE05500E08A92 /* ARCHDiffCollectionViewController.swift */; };
-		507ABCBC21257C64003DBDD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093687B20F683010044CA62 /* AppDelegate.swift */; };
-		507ABCBF21257C64003DBDD7 /* ModulesUserStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089235E20FC8E7B0032985E /* ModulesUserStory.swift */; };
-		507ABCC121257C64003DBDD7 /* HHModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5072DD95211D84B800E08A92 /* HHModule.framework */; };
-		507ABCC421257C64003DBDD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5093688420F683030044CA62 /* LaunchScreen.storyboard */; };
-		507ABCC521257C64003DBDD7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5067975021241A7E0034CDA2 /* README.md */; };
-		507ABCC621257C64003DBDD7 /* templates.md in Resources */ = {isa = PBXBuildFile; fileRef = 5072DDA7211DBCBB00E08A92 /* templates.md */; };
-		507ABCC721257C64003DBDD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5093688220F683030044CA62 /* Assets.xcassets */; };
-		507ABCC921257C64003DBDD7 /* HHModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5072DD95211D84B800E08A92 /* HHModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		507ABCCF21257C97003DBDD7 /* EmptyModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5010AA3F2118342500158C1F /* EmptyModuleConfigurator.swift */; };
-		507ABCDA21257D05003DBDD7 /* NetworkConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507ABCD021257D00003DBDD7 /* NetworkConfigurator.swift */; };
-		507ABCDB21257D05003DBDD7 /* NetworkEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507ABCD121257D00003DBDD7 /* NetworkEventHandler.swift */; };
-		507ABCDC21257D05003DBDD7 /* NetworkModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507ABCD421257D01003DBDD7 /* NetworkModuleIO.swift */; };
-		507ABCDD21257D05003DBDD7 /* NetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507ABCD321257D01003DBDD7 /* NetworkState.swift */; };
-		507ABCDE21257D05003DBDD7 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507ABCD221257D01003DBDD7 /* NetworkViewController.swift */; };
-		507ABCE021257D31003DBDD7 /* MainResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507ABCDF21257D31003DBDD7 /* MainResponse.swift */; };
-		507ABCE121257D4F003DBDD7 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D264842123077E00E3B47A /* Dependency.swift */; };
-		507ABCE221257D4F003DBDD7 /* ApiTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D264852123077E00E3B47A /* ApiTarget.swift */; };
-		507ABCE521257D5A003DBDD7 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507ABCE321257D5A003DBDD7 /* Token.swift */; };
-		507ABCE621257D5A003DBDD7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507ABCE421257D5A003DBDD7 /* User.swift */; };
-		507ABCE721257E34003DBDD7 /* HHNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50679736212419970034CDA2 /* HHNetwork.framework */; };
-		507ABCE821257E34003DBDD7 /* HHNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50679736212419970034CDA2 /* HHNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		507C3FD32142AD4F00A21073 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C3FD12142AD4200A21073 /* HeaderView.swift */; };
 		507C3FD42142AF9E00A21073 /* IndicationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507F14DA2137EAE10087DCDB /* IndicationDemoViewController.swift */; };
 		507C3FD52142AFA400A21073 /* IndicationDemoConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507F14DB2137EAE10087DCDB /* IndicationDemoConfigurator.swift */; };
@@ -217,7 +185,6 @@
 		50BC80B2211DFADF00D77262 /* ARCHRouterPushOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089232920FC8DA30032985E /* ARCHRouterPushOptions.swift */; };
 		50BC80B3211DFAE200D77262 /* ARCHRouterPresentOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089232A20FC8DA30032985E /* ARCHRouterPresentOptions.swift */; };
 		50BC80B5211DFAE900D77262 /* ARCHRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089232D20FC8DA30032985E /* ARCHRouter.swift */; };
-		50C98553212AB66C0002EF4B /* Multidelegate.md in Resources */ = {isa = PBXBuildFile; fileRef = 50C98552212AB66C0002EF4B /* Multidelegate.md */; };
 		50C98562212AE9D20002EF4B /* HHPagingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C98560212AE9D20002EF4B /* HHPagingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50C9856F212AE9E90002EF4B /* ARCHPagingManagerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C98547212AAFA20002EF4B /* ARCHPagingManagerIO.swift */; };
 		50C98570212AE9E90002EF4B /* ARCHPagingManagerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C9854A212AAFA30002EF4B /* ARCHPagingManagerRequest.swift */; };
@@ -248,8 +215,6 @@
 		50C985A5212AEC740002EF4B /* PaginationEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C98576212AEB800002EF4B /* PaginationEventHandler.swift */; };
 		50C985A6212AEC740002EF4B /* PaginationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C98579212AEB800002EF4B /* PaginationState.swift */; };
 		50C985A7212AEC740002EF4B /* PaginationModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C98575212AEB800002EF4B /* PaginationModuleIO.swift */; };
-		50C985A8212AECDA0002EF4B /* HHNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50679736212419970034CDA2 /* HHNetwork.framework */; };
-		50C985A9212AECDA0002EF4B /* HHNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50679736212419970034CDA2 /* HHNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		50C985AC212AECDA0002EF4B /* HHPagingManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C9855E212AE9D20002EF4B /* HHPagingManager.framework */; };
 		50C985AD212AECDA0002EF4B /* HHPagingManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50C9855E212AE9D20002EF4B /* HHPagingManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		50C985B0212AEE850002EF4B /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D264842123077E00E3B47A /* Dependency.swift */; };
@@ -260,14 +225,8 @@
 		50C985B7212AF04D0002EF4B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D22121748400D77262 /* Alamofire.framework */; };
 		50C985B8212AF04D0002EF4B /* DeepDiff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089230720FB77520032985E /* DeepDiff.framework */; };
 		50C985B9212AF04D0002EF4B /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D264812122D1E300E3B47A /* KeychainAccess.framework */; };
-		50C985BA212AF04D0002EF4B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D02121748400D77262 /* Moya.framework */; };
 		50C985BB212AF04D0002EF4B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D12121748400D77262 /* Result.framework */; };
-		50C985BC212AF0C00002EF4B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D22121748400D77262 /* Alamofire.framework */; };
-		50C985BD212AF0C00002EF4B /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D264812122D1E300E3B47A /* KeychainAccess.framework */; };
-		50C985BE212AF0C00002EF4B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D02121748400D77262 /* Moya.framework */; };
-		50C985BF212AF0C00002EF4B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D12121748400D77262 /* Result.framework */; };
 		50C985C0212AF0D20002EF4B /* DeepDiff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089230720FB77520032985E /* DeepDiff.framework */; };
-		50C985C1212AF5620002EF4B /* SimpleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506797A1212572AE0034CDA2 /* SimpleEntity.swift */; };
 		50CC5313214665BD008EF24A /* SkeletonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC531021466479008EF24A /* SkeletonData.swift */; };
 		50CD798B216A5CDC005C11A6 /* EmptyModuleEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5010AA3D2118342500158C1F /* EmptyModuleEventHandler.swift */; };
 		50CD798C216A5CDC005C11A6 /* EmptyModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5010AA3F2118342500158C1F /* EmptyModuleConfigurator.swift */; };
@@ -280,8 +239,6 @@
 		50CD7994216A5CDC005C11A6 /* HHLens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF48AE82167A3F60040AE49 /* HHLens.framework */; };
 		50CD7995216A5CDC005C11A6 /* HHModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5072DD95211D84B800E08A92 /* HHModule.framework */; };
 		50CD7998216A5CDC005C11A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5093688420F683030044CA62 /* LaunchScreen.storyboard */; };
-		50CD7999216A5CDC005C11A6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5067975021241A7E0034CDA2 /* README.md */; };
-		50CD799A216A5CDC005C11A6 /* Multidelegate.md in Resources */ = {isa = PBXBuildFile; fileRef = 50C98552212AB66C0002EF4B /* Multidelegate.md */; };
 		50CD799B216A5CDC005C11A6 /* templates.md in Resources */ = {isa = PBXBuildFile; fileRef = 5072DDA7211DBCBB00E08A92 /* templates.md */; };
 		50CD799C216A5CDC005C11A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5093688220F683030044CA62 /* Assets.xcassets */; };
 		50CD799E216A5CDC005C11A6 /* HHLens.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF48AE82167A3F60040AE49 /* HHLens.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -392,13 +349,6 @@
 			remoteGlobalIDString = 5072DD94211D84B800E08A92;
 			remoteInfo = HHModule;
 		};
-		5067973B212419970034CDA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5093687020F683010044CA62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50679735212419970034CDA2;
-			remoteInfo = HHNetwork;
-		};
 		5067978A21256FAD0034CDA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5093687020F683010044CA62 /* Project object */;
@@ -447,34 +397,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5072DDE6211DE83200E08A92;
 			remoteInfo = HHListExtension;
-		};
-		507ABCB121257C64003DBDD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5093687020F683010044CA62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 501AA647211C6C4A002D3264;
-			remoteInfo = HHList;
-		};
-		507ABCB321257C64003DBDD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5093687020F683010044CA62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5072DD94211D84B800E08A92;
-			remoteInfo = HHModule;
-		};
-		507ABCB521257C64003DBDD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5093687020F683010044CA62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5072DDE6211DE83200E08A92;
-			remoteInfo = HHListExtension;
-		};
-		507ABCB721257C64003DBDD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5093687020F683010044CA62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50679735212419970034CDA2;
-			remoteInfo = HHNetwork;
 		};
 		507F14A02137E6B50087DCDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -553,13 +475,6 @@
 			remoteGlobalIDString = 5072DDE6211DE83200E08A92;
 			remoteInfo = HHListExtension;
 		};
-		50C985AA212AECDA0002EF4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5093687020F683010044CA62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50679735212419970034CDA2;
-			remoteInfo = HHNetwork;
-		};
 		50C985AE212AECDA0002EF4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5093687020F683010044CA62 /* Project object */;
@@ -587,13 +502,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5072DDE6211DE83200E08A92;
 			remoteInfo = HHListExtension;
-		};
-		50CD7983216A5CDC005C11A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5093687020F683010044CA62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50679735212419970034CDA2;
-			remoteInfo = HHNetwork;
 		};
 		50CD7985216A5CDC005C11A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -689,18 +597,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		507ABCC821257C64003DBDD7 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				507ABCC921257C64003DBDD7 /* HHModule.framework in Embed Frameworks */,
-				507ABCE821257E34003DBDD7 /* HHNetwork.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		507F14C82137E99C0087DCDB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -734,7 +630,6 @@
 			files = (
 				50C9859A212AEBFF0002EF4B /* HHModule.framework in Embed Frameworks */,
 				50C985AD212AECDA0002EF4B /* HHPagingManager.framework in Embed Frameworks */,
-				50C985A9212AECDA0002EF4B /* HHNetwork.framework in Embed Frameworks */,
 				50C9859B212AEBFF0002EF4B /* HHList.framework in Embed Frameworks */,
 				50C9859C212AEBFF0002EF4B /* HHListExtension.framework in Embed Frameworks */,
 			);
@@ -818,12 +713,6 @@
 		503FD71A21401724008905ED /* ARCHDiffTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHDiffTableViewController.swift; sourceTree = "<group>"; };
 		503FD71D2140201C008905ED /* ARCHCollectionViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARCHCollectionViewController+.swift"; sourceTree = "<group>"; };
 		503FD73E21402CC2008905ED /* HHListControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHListControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5067972D2124144F0034CDA2 /* ARCHNetworkError.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ARCHNetworkError.strings; sourceTree = "<group>"; };
-		5067972F212416B60034CDA2 /* ARCHLoggerMoyaPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHLoggerMoyaPlugin.swift; sourceTree = "<group>"; };
-		50679736212419970034CDA2 /* HHNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50679738212419970034CDA2 /* HHNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHNetwork.h; sourceTree = "<group>"; };
-		50679739212419970034CDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5067975021241A7E0034CDA2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5067976A21256CF80034CDA2 /* HHListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50679793212572610034CDA2 /* ExampleCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCellViewModel.swift; sourceTree = "<group>"; };
 		50679794212572610034CDA2 /* ExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
@@ -857,7 +746,6 @@
 		5072DDE9211DE83200E08A92 /* HHListExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHListExtension.h; sourceTree = "<group>"; };
 		5072DDEA211DE83200E08A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5072DDF7211DE8FB00E08A92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		507ABCCD21257C64003DBDD7 /* HHNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507ABCD021257D00003DBDD7 /* NetworkConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfigurator.swift; sourceTree = "<group>"; };
 		507ABCD121257D00003DBDD7 /* NetworkEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEventHandler.swift; sourceTree = "<group>"; };
 		507ABCD221257D01003DBDD7 /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
@@ -912,18 +800,14 @@
 		50954D27217F250E0003610A /* ARCHModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHModule.swift; sourceTree = "<group>"; };
 		50AB16FF21C148400058F3B0 /* ARCHSectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHSectionTableViewController.swift; sourceTree = "<group>"; };
 		50B89519214BF00900242372 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
-		50BC80D02121748400D77262 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
 		50BC80D12121748400D77262 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		50BC80D22121748400D77262 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		50BC80D62121757000D77262 /* ARCHNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHNetworkError.swift; sourceTree = "<group>"; };
-		50BC80D82121765900D77262 /* ARCHApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHApiResponse.swift; sourceTree = "<group>"; };
 		50C98546212AAFA20002EF4B /* ARCHCollectionViewPagingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHCollectionViewPagingManager.swift; sourceTree = "<group>"; };
 		50C98547212AAFA20002EF4B /* ARCHPagingManagerIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHPagingManagerIO.swift; sourceTree = "<group>"; };
 		50C98548212AAFA30002EF4B /* ARCHTableViewPagingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHTableViewPagingManager.swift; sourceTree = "<group>"; };
 		50C98549212AAFA30002EF4B /* ARCHPagingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHPagingManager.swift; sourceTree = "<group>"; };
 		50C9854A212AAFA30002EF4B /* ARCHPagingManagerRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHPagingManagerRequest.swift; sourceTree = "<group>"; };
 		50C98550212AB0070002EF4B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		50C98552212AB66C0002EF4B /* Multidelegate.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Multidelegate.md; sourceTree = "<group>"; };
 		50C9855E212AE9D20002EF4B /* HHPagingManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHPagingManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C98560212AE9D20002EF4B /* HHPagingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPagingManager.h; sourceTree = "<group>"; };
 		50C98561212AE9D20002EF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -944,15 +828,11 @@
 		50D1DBC521512021005999F0 /* UILabel+Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Skeleton.swift"; sourceTree = "<group>"; };
 		50D1DBC7215122B3005999F0 /* ARCHSkeletonCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHSkeletonCollectionViewController.swift; sourceTree = "<group>"; };
 		50D1DBCA21512550005999F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		50D26461212196B600E3B47A /* ARCHTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHTargetType.swift; sourceTree = "<group>"; };
-		50D264652121B03B00E3B47A /* ARCHAuthObserverMoyaPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHAuthObserverMoyaPlugin.swift; sourceTree = "<group>"; };
-		50D264782121FA1400E3B47A /* ARCHMoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHMoyaProvider.swift; sourceTree = "<group>"; };
 		50D2647D2122CEA400E3B47A /* ARCHUserStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHUserStorage.swift; sourceTree = "<group>"; };
 		50D2647F2122CEC400E3B47A /* ARCHKeychainUserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHKeychainUserStorage.swift; sourceTree = "<group>"; };
 		50D264812122D1E300E3B47A /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
 		50D264842123077E00E3B47A /* Dependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
 		50D264852123077E00E3B47A /* ApiTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiTarget.swift; sourceTree = "<group>"; };
-		50D2648D21231EAE00E3B47A /* ARCHSignMoyaPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHSignMoyaPlugin.swift; sourceTree = "<group>"; };
 		50EA3025213421E800A95512 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		50EA30442134529A00A95512 /* HHSkeletonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHSkeletonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA81EB211ACF8D00ADA769 /* ARCHEmptyListDataAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHEmptyListDataAdapter.swift; sourceTree = "<group>"; };
@@ -1040,13 +920,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50679732212419970034CDA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5067976721256CF80034CDA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1080,19 +953,6 @@
 			files = (
 				50AC942F213D673B0007B7FA /* HHModule.framework in Frameworks */,
 				50DF383A2125802B000EFCD3 /* HHList.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		507ABCC021257C64003DBDD7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50C985BC212AF0C00002EF4B /* Alamofire.framework in Frameworks */,
-				50C985BD212AF0C00002EF4B /* KeychainAccess.framework in Frameworks */,
-				50C985BE212AF0C00002EF4B /* Moya.framework in Frameworks */,
-				50C985BF212AF0C00002EF4B /* Result.framework in Frameworks */,
-				507ABCC121257C64003DBDD7 /* HHModule.framework in Frameworks */,
-				507ABCE721257E34003DBDD7 /* HHNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1138,11 +998,9 @@
 				50C985B7212AF04D0002EF4B /* Alamofire.framework in Frameworks */,
 				50C985B8212AF04D0002EF4B /* DeepDiff.framework in Frameworks */,
 				50C985B9212AF04D0002EF4B /* KeychainAccess.framework in Frameworks */,
-				50C985BA212AF04D0002EF4B /* Moya.framework in Frameworks */,
 				50C985BB212AF04D0002EF4B /* Result.framework in Frameworks */,
 				50C98592212AEBFF0002EF4B /* HHModule.framework in Frameworks */,
 				50C985AC212AECDA0002EF4B /* HHPagingManager.framework in Frameworks */,
-				50C985A8212AECDA0002EF4B /* HHNetwork.framework in Frameworks */,
 				50C98593212AEBFF0002EF4B /* HHList.framework in Frameworks */,
 				50C98594212AEBFF0002EF4B /* HHListExtension.framework in Frameworks */,
 			);
@@ -1243,14 +1101,6 @@
 			path = HHList;
 			sourceTree = "<group>";
 		};
-		5028E3242126EFF500052FEF /* HHBestPractice */ = {
-			isa = PBXGroup;
-			children = (
-				50C98552212AB66C0002EF4B /* Multidelegate.md */,
-			);
-			path = HHBestPractice;
-			sourceTree = "<group>";
-		};
 		502A7B8321739D4400C6A2E8 /* SectionList */ = {
 			isa = PBXGroup;
 			children = (
@@ -1280,15 +1130,6 @@
 				50AB16FF21C148400058F3B0 /* ARCHSectionTableViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		50679737212419970034CDA2 /* HHNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				50679738212419970034CDA2 /* HHNetwork.h */,
-				50679739212419970034CDA2 /* Info.plist */,
-			);
-			path = HHNetwork;
 			sourceTree = "<group>";
 		};
 		50679791212572610034CDA2 /* UIKit */ = {
@@ -1476,7 +1317,6 @@
 				509013532146912C00C36247 /* Skeleton.framework */,
 				50D264812122D1E300E3B47A /* KeychainAccess.framework */,
 				50BC80D22121748400D77262 /* Alamofire.framework */,
-				50BC80D02121748400D77262 /* Moya.framework */,
 				50BC80D12121748400D77262 /* Result.framework */,
 				5032B7F621186C4D00271A1D /* UIKit.framework */,
 				5032B7F421186C4600271A1D /* Foundation.framework */,
@@ -1488,11 +1328,9 @@
 		5089231E20FC8DA30032985E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				5028E3242126EFF500052FEF /* HHBestPractice */,
 				5089231F20FC8DA30032985E /* HHModule */,
 				5089232E20FC8DA30032985E /* HHList */,
 				5072DDC5211DD40A00E08A92 /* HHListExtension */,
-				50BC80B621216C6300D77262 /* HHNetwork */,
 				50D2647C2122CEA400E3B47A /* HHUserStorage */,
 				50C98545212AAFA20002EF4B /* HHPagingManager */,
 				507F14932137E67F0087DCDB /* HHIndication */,
@@ -1621,7 +1459,6 @@
 				501AA649211C6C4B002D3264 /* HHList */,
 				5072DD96211D84B800E08A92 /* HHModule */,
 				5072DDE8211DE83200E08A92 /* HHListExtension */,
-				50679737212419970034CDA2 /* HHNetwork */,
 				50C9855F212AE9D20002EF4B /* HHPagingManager */,
 				507F149C2137E6B50087DCDB /* HHIndication */,
 				50D1DBAE215119F9005999F0 /* HHSkeleton */,
@@ -1638,10 +1475,8 @@
 				501AA648211C6C4A002D3264 /* HHList.framework */,
 				5072DD95211D84B800E08A92 /* HHModule.framework */,
 				5072DDE7211DE83200E08A92 /* HHListExtension.framework */,
-				50679736212419970034CDA2 /* HHNetwork.framework */,
 				5067976A21256CF80034CDA2 /* HHListDemo.app */,
 				506797E32125761C0034CDA2 /* HHListExtDemo.app */,
-				507ABCCD21257C64003DBDD7 /* HHNetworkDemo.app */,
 				50C9855E212AE9D20002EF4B /* HHPagingManager.framework */,
 				50C985A1212AEBFF0002EF4B /* HHPaginationDemo.app */,
 				50EA30442134529A00A95512 /* HHSkeletonDemo.app */,
@@ -1681,30 +1516,6 @@
 				5093688720F683030044CA62 /* Info.plist */,
 			);
 			path = Demo;
-			sourceTree = "<group>";
-		};
-		50BC80B621216C6300D77262 /* HHNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				5067975021241A7E0034CDA2 /* README.md */,
-				50BC80BF21216C6300D77262 /* Plugins */,
-				50D264782121FA1400E3B47A /* ARCHMoyaProvider.swift */,
-				50BC80D82121765900D77262 /* ARCHApiResponse.swift */,
-				50BC80D62121757000D77262 /* ARCHNetworkError.swift */,
-				50D26461212196B600E3B47A /* ARCHTargetType.swift */,
-				5067972D2124144F0034CDA2 /* ARCHNetworkError.strings */,
-			);
-			path = HHNetwork;
-			sourceTree = "<group>";
-		};
-		50BC80BF21216C6300D77262 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				5067972F212416B60034CDA2 /* ARCHLoggerMoyaPlugin.swift */,
-				50D2648D21231EAE00E3B47A /* ARCHSignMoyaPlugin.swift */,
-				50D264652121B03B00E3B47A /* ARCHAuthObserverMoyaPlugin.swift */,
-			);
-			path = Plugins;
 			sourceTree = "<group>";
 		};
 		50C98545212AAFA20002EF4B /* HHPagingManager */ = {
@@ -1943,14 +1754,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50679733212419970034CDA2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5067973A212419970034CDA2 /* HHNetwork.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5072DD92211D84B800E08A92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2062,24 +1865,6 @@
 			productReference = 503FD73E21402CC2008905ED /* HHListControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		50679735212419970034CDA2 /* HHNetwork */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5067973F212419970034CDA2 /* Build configuration list for PBXNativeTarget "HHNetwork" */;
-			buildPhases = (
-				50679731212419970034CDA2 /* Sources */,
-				50679732212419970034CDA2 /* Frameworks */,
-				50679733212419970034CDA2 /* Headers */,
-				50679734212419970034CDA2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HHNetwork;
-			productName = HHNetwork;
-			productReference = 50679736212419970034CDA2 /* HHNetwork.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5067976921256CF80034CDA2 /* HHListDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5067977921256CFB0034CDA2 /* Build configuration list for PBXNativeTarget "HHListDemo" */;
@@ -2161,30 +1946,6 @@
 			productReference = 5072DDE7211DE83200E08A92 /* HHListExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		507ABCAF21257C64003DBDD7 /* HHNetworkDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 507ABCCA21257C64003DBDD7 /* Build configuration list for PBXNativeTarget "HHNetworkDemo" */;
-			buildPhases = (
-				507ABCB821257C64003DBDD7 /* Sources */,
-				507ABCC021257C64003DBDD7 /* Frameworks */,
-				507ABCC221257C64003DBDD7 /* Swiftlint */,
-				507ABCC321257C64003DBDD7 /* Resources */,
-				507ABCC821257C64003DBDD7 /* Embed Frameworks */,
-				507ABCE921257E47003DBDD7 /* Carthage */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				507ABCB021257C64003DBDD7 /* PBXTargetDependency */,
-				507ABCB221257C64003DBDD7 /* PBXTargetDependency */,
-				507ABCB421257C64003DBDD7 /* PBXTargetDependency */,
-				507ABCB621257C64003DBDD7 /* PBXTargetDependency */,
-			);
-			name = HHNetworkDemo;
-			productName = architecture;
-			productReference = 507ABCCD21257C64003DBDD7 /* HHNetworkDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
 		507F149A2137E6B50087DCDB /* HHIndication */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 507F14A42137E6B50087DCDB /* Build configuration list for PBXNativeTarget "HHIndication" */;
@@ -2243,7 +2004,6 @@
 				501AA64E211C6C4B002D3264 /* PBXTargetDependency */,
 				5072DD9B211D84B800E08A92 /* PBXTargetDependency */,
 				5072DDED211DE83200E08A92 /* PBXTargetDependency */,
-				5067973C212419970034CDA2 /* PBXTargetDependency */,
 				50C98564212AE9D20002EF4B /* PBXTargetDependency */,
 				507F14A12137E6B50087DCDB /* PBXTargetDependency */,
 			);
@@ -2287,7 +2047,6 @@
 				50C98580212AEBFF0002EF4B /* PBXTargetDependency */,
 				50C98582212AEBFF0002EF4B /* PBXTargetDependency */,
 				50C98584212AEBFF0002EF4B /* PBXTargetDependency */,
-				50C985AB212AECDA0002EF4B /* PBXTargetDependency */,
 				50C985AF212AECDA0002EF4B /* PBXTargetDependency */,
 			);
 			name = HHPaginationDemo;
@@ -2311,7 +2070,6 @@
 				50CD797C216A5CDC005C11A6 /* PBXTargetDependency */,
 				50CD797E216A5CDC005C11A6 /* PBXTargetDependency */,
 				50CD7980216A5CDC005C11A6 /* PBXTargetDependency */,
-				50CD7982216A5CDC005C11A6 /* PBXTargetDependency */,
 				50CD7984216A5CDC005C11A6 /* PBXTargetDependency */,
 				50CD7986216A5CDC005C11A6 /* PBXTargetDependency */,
 				50CD7988216A5CDC005C11A6 /* PBXTargetDependency */,
@@ -2389,13 +2147,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = HandH;
 				TargetAttributes = {
 					501AA647211C6C4A002D3264 = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					50679735212419970034CDA2 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 					5067976921256CF80034CDA2 = {
@@ -2445,7 +2200,6 @@
 				502A7B6321739CD100C6A2E8 /* HHSectionListDemo */,
 				503FD72021402CC2008905ED /* HHListControllerDemo */,
 				506797C62125761C0034CDA2 /* HHListExtDemo */,
-				507ABCAF21257C64003DBDD7 /* HHNetworkDemo */,
 				50C9857F212AEBFF0002EF4B /* HHPaginationDemo */,
 				50EA30272134529A00A95512 /* HHSkeletonDemo */,
 				507F14AF2137E99C0087DCDB /* HHIndicationDemo */,
@@ -2453,7 +2207,6 @@
 				501AA647211C6C4A002D3264 /* HHList */,
 				5072DD94211D84B800E08A92 /* HHModule */,
 				5072DDE6211DE83200E08A92 /* HHListExtension */,
-				50679735212419970034CDA2 /* HHNetwork */,
 				50C9855D212AE9D20002EF4B /* HHPagingManager */,
 				507F149A2137E6B50087DCDB /* HHIndication */,
 				50D1DBAC215119F9005999F0 /* HHSkeleton */,
@@ -2491,14 +2244,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50679734212419970034CDA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50679749212419B50034CDA2 /* ARCHNetworkError.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5067976821256CF80034CDA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2533,17 +2278,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		507ABCC321257C64003DBDD7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				507ABCC421257C64003DBDD7 /* LaunchScreen.storyboard in Resources */,
-				507ABCC521257C64003DBDD7 /* README.md in Resources */,
-				507ABCC621257C64003DBDD7 /* templates.md in Resources */,
-				507ABCC721257C64003DBDD7 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		507F14992137E6B50087DCDB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2567,8 +2301,6 @@
 			files = (
 				5093688620F683030044CA62 /* LaunchScreen.storyboard in Resources */,
 				81E49D6F2367474100ECF461 /* DemoViewController.xib in Resources */,
-				5067975121241A7E0034CDA2 /* README.md in Resources */,
-				50C98553212AB66C0002EF4B /* Multidelegate.md in Resources */,
 				5072DDA8211DBCBC00E08A92 /* templates.md in Resources */,
 				5093688320F683030044CA62 /* Assets.xcassets in Resources */,
 			);
@@ -2596,8 +2328,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50CD7998216A5CDC005C11A6 /* LaunchScreen.storyboard in Resources */,
-				50CD7999216A5CDC005C11A6 /* README.md in Resources */,
-				50CD799A216A5CDC005C11A6 /* Multidelegate.md in Resources */,
 				50CD799B216A5CDC005C11A6 /* templates.md in Resources */,
 				50CD799C216A5CDC005C11A6 /* Assets.xcassets in Resources */,
 			);
@@ -2683,42 +2413,6 @@
 			name = Carthage;
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/DeepDiff.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-		507ABCC221257C64003DBDD7 /* Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Swiftlint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" == \"Debug\" ]; then\n    if which swiftlint >/dev/null; then\n        swiftlint\n    fi\nfi";
-		};
-		507ABCE921257E47003DBDD7 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/KeychainAccess.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/KeychainAccess.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2954,22 +2648,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50679731212419970034CDA2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50679742212419A30034CDA2 /* ARCHLoggerMoyaPlugin.swift in Sources */,
-				50679748212419B30034CDA2 /* ARCHTargetType.swift in Sources */,
-				5067974A212419B90034CDA2 /* ARCHUserStorage.swift in Sources */,
-				50679743212419A50034CDA2 /* ARCHSignMoyaPlugin.swift in Sources */,
-				50679744212419A80034CDA2 /* ARCHAuthObserverMoyaPlugin.swift in Sources */,
-				50679746212419AD0034CDA2 /* ARCHApiResponse.swift in Sources */,
-				50679747212419AF0034CDA2 /* ARCHMoyaProvider.swift in Sources */,
-				50679745212419AB0034CDA2 /* ARCHNetworkError.swift in Sources */,
-				5067974B212419BC0034CDA2 /* ARCHKeychainUserStorage.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5067976621256CF80034CDA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3031,26 +2709,6 @@
 				503FD71C21401975008905ED /* ARCHDiffTableViewController.swift in Sources */,
 				503FD71F21402065008905ED /* ARCHCollectionViewController+.swift in Sources */,
 				5072DDF5211DE87D00E08A92 /* ARCHTableViewController+.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		507ABCB821257C64003DBDD7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50C985C1212AF5620002EF4B /* SimpleEntity.swift in Sources */,
-				507ABCDE21257D05003DBDD7 /* NetworkViewController.swift in Sources */,
-				507ABCBC21257C64003DBDD7 /* AppDelegate.swift in Sources */,
-				507ABCE621257D5A003DBDD7 /* User.swift in Sources */,
-				507ABCDA21257D05003DBDD7 /* NetworkConfigurator.swift in Sources */,
-				507ABCE221257D4F003DBDD7 /* ApiTarget.swift in Sources */,
-				507ABCE521257D5A003DBDD7 /* Token.swift in Sources */,
-				507ABCE021257D31003DBDD7 /* MainResponse.swift in Sources */,
-				507ABCDD21257D05003DBDD7 /* NetworkState.swift in Sources */,
-				507ABCDB21257D05003DBDD7 /* NetworkEventHandler.swift in Sources */,
-				507ABCDC21257D05003DBDD7 /* NetworkModuleIO.swift in Sources */,
-				507ABCE121257D4F003DBDD7 /* Dependency.swift in Sources */,
-				507ABCBF21257C64003DBDD7 /* ModulesUserStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3271,11 +2929,6 @@
 			target = 5072DD94211D84B800E08A92 /* HHModule */;
 			targetProxy = 503FD72421402CC2008905ED /* PBXContainerItemProxy */;
 		};
-		5067973C212419970034CDA2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50679735212419970034CDA2 /* HHNetwork */;
-			targetProxy = 5067973B212419970034CDA2 /* PBXContainerItemProxy */;
-		};
 		5067978B21256FAD0034CDA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 501AA647211C6C4A002D3264 /* HHList */;
@@ -3310,26 +2963,6 @@
 			isa = PBXTargetDependency;
 			target = 5072DDE6211DE83200E08A92 /* HHListExtension */;
 			targetProxy = 5072DDEC211DE83200E08A92 /* PBXContainerItemProxy */;
-		};
-		507ABCB021257C64003DBDD7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 501AA647211C6C4A002D3264 /* HHList */;
-			targetProxy = 507ABCB121257C64003DBDD7 /* PBXContainerItemProxy */;
-		};
-		507ABCB221257C64003DBDD7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5072DD94211D84B800E08A92 /* HHModule */;
-			targetProxy = 507ABCB321257C64003DBDD7 /* PBXContainerItemProxy */;
-		};
-		507ABCB421257C64003DBDD7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5072DDE6211DE83200E08A92 /* HHListExtension */;
-			targetProxy = 507ABCB521257C64003DBDD7 /* PBXContainerItemProxy */;
-		};
-		507ABCB621257C64003DBDD7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50679735212419970034CDA2 /* HHNetwork */;
-			targetProxy = 507ABCB721257C64003DBDD7 /* PBXContainerItemProxy */;
 		};
 		507F14A12137E6B50087DCDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3386,11 +3019,6 @@
 			target = 5072DDE6211DE83200E08A92 /* HHListExtension */;
 			targetProxy = 50C98585212AEBFF0002EF4B /* PBXContainerItemProxy */;
 		};
-		50C985AB212AECDA0002EF4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50679735212419970034CDA2 /* HHNetwork */;
-			targetProxy = 50C985AA212AECDA0002EF4B /* PBXContainerItemProxy */;
-		};
 		50C985AF212AECDA0002EF4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 50C9855D212AE9D20002EF4B /* HHPagingManager */;
@@ -3410,11 +3038,6 @@
 			isa = PBXTargetDependency;
 			target = 5072DDE6211DE83200E08A92 /* HHListExtension */;
 			targetProxy = 50CD7981216A5CDC005C11A6 /* PBXContainerItemProxy */;
-		};
-		50CD7982216A5CDC005C11A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50679735212419970034CDA2 /* HHNetwork */;
-			targetProxy = 50CD7983216A5CDC005C11A6 /* PBXContainerItemProxy */;
 		};
 		50CD7984216A5CDC005C11A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3477,7 +3100,7 @@
 				);
 				INFOPLIST_FILE = HHList/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3511,7 +3134,7 @@
 				);
 				INFOPLIST_FILE = HHList/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3540,7 +3163,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3566,7 +3189,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3592,7 +3215,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3618,7 +3241,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3629,74 +3252,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		50679740212419970034CDA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HHNetwork/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = handh.HHNetwork;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		50679741212419970034CDA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HHNetwork/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = handh.HHNetwork;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -3712,7 +3267,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3738,7 +3293,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3764,7 +3319,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3790,7 +3345,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3821,7 +3376,7 @@
 				);
 				INFOPLIST_FILE = HHModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3855,7 +3410,7 @@
 				);
 				INFOPLIST_FILE = HHModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3889,7 +3444,7 @@
 				);
 				INFOPLIST_FILE = HHListExtension/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3923,7 +3478,7 @@
 				);
 				INFOPLIST_FILE = HHListExtension/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3940,58 +3495,6 @@
 			};
 			name = Release;
 		};
-		507ABCCB21257C64003DBDD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				OTHER_SWIFT_FLAGS = "-D HHNetwork";
-				PRODUCT_BUNDLE_IDENTIFIER = handh.HHNetworkDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		507ABCCC21257C64003DBDD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				OTHER_SWIFT_FLAGS = "-D HHNetwork";
-				PRODUCT_BUNDLE_IDENTIFIER = handh.HHNetworkDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 		507F14A52137E6B50087DCDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4005,7 +3508,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HHIndication/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4035,7 +3538,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HHIndication/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4064,7 +3567,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4090,7 +3593,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4131,6 +3634,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -4156,7 +3660,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -4191,6 +3695,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -4210,7 +3715,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -4231,7 +3736,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4257,7 +3762,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4284,7 +3789,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HHPagingManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4314,7 +3819,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HHPagingManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4343,7 +3848,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4369,7 +3874,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4395,7 +3900,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4421,7 +3926,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4452,7 +3957,7 @@
 				);
 				INFOPLIST_FILE = HHSkeleton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4486,7 +3991,7 @@
 				);
 				INFOPLIST_FILE = HHSkeleton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4516,7 +4021,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4543,7 +4048,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4571,7 +4076,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HHLens/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4603,7 +4108,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HHLens/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4651,15 +4156,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5067973F212419970034CDA2 /* Build configuration list for PBXNativeTarget "HHNetwork" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50679740212419970034CDA2 /* Debug */,
-				50679741212419970034CDA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5067977921256CFB0034CDA2 /* Build configuration list for PBXNativeTarget "HHListDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4692,15 +4188,6 @@
 			buildConfigurations = (
 				5072DDF1211DE83200E08A92 /* Debug */,
 				5072DDF2211DE83200E08A92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		507ABCCA21257C64003DBDD7 /* Build configuration list for PBXNativeTarget "HHNetworkDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				507ABCCB21257C64003DBDD7 /* Debug */,
-				507ABCCC21257C64003DBDD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

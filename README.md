@@ -9,8 +9,7 @@
     - [Наследование](Source/HHModule/INHERITANCE.md)
 - [Работа с UITableView/UICollectionView](Source/HHList/README.md)
     - [Расширения](Source/HHListExtension/README.md)
-- [Взаимодействие с сетью](Source/HHNetwork/README.md)
-    - [Постраничная загрузка данных](Source/HHPagingManager/README.md)
+- [Постраничная загрузка данных](Source/HHPagingManager/README.md)
 - [Индикация](Source/HHIndication/README.md)
     - [Скелетная загрузка](Source/HHSkeleton/README.md)
 - Best practices
