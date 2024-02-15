@@ -8,6 +8,7 @@
 
 import HHList
 import DeepDiff
+import UIKit
 
 // swiftlint:disable:next line_length
 public class ARCHDiffCollectionViewController<D: DiffAware, VM: ARCHCellViewModel & ARCHModelInitilizable, C: UICollectionViewCell & ARCHCell>: ARCHCollectionViewController<D, VM, C> {
