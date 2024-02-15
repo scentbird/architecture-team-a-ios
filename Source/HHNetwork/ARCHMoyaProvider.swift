@@ -7,6 +7,7 @@
 //
 
 import Moya
+import Foundation
 
 open class ARCHMoyaProvider<T: ARCHTargetType>: MoyaProvider<T>, ARCHUserStorageDelegate {
 
