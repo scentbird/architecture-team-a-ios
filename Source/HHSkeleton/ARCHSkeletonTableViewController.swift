@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public class ARCHSkeletonTableViewController<C: UITableViewCell & ARCHSkeletonView>: NSObject, UITableViewDataSource, ARCHSkeletonView {
 

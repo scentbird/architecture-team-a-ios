@@ -10,6 +10,7 @@ import Foundation
 import HHIndication
 import HHModule
 import Skeleton
+import UIKit
 
 open class ARCHSkeletonViewProvider: UIView, ARCHIndicationViewProvider, ARCHIndicationView, GradientsOwner {
 
