@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 open class ARCHSectionCollectionViewController<D: Hashable, VM: ARCHSectionViewModel>: NSObject {
 
