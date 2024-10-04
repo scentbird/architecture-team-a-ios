@@ -51,7 +51,9 @@ let package = Package(
             path: "Source/HHPagingManager"),
         .target(
             name: "HHUserStorage",
-            dependencies: [],
+            dependencies: [
+                .product(name: "KeychainAccess", package: "KeychainAccess")
+            ],
             path: "Source/HHUserStorage"),
     ]
 )
