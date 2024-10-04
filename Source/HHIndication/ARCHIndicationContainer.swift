@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol ARCHIndicationContainer: class {
+public protocol ARCHIndicationContainer: AnyObject {
     var layoutIndicationGuide: ARCHIndicationLayoutGuide { get }
     var contextView: UIView { get }
 }
