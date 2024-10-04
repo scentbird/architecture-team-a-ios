@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol ARCHListDataSourceDelegate: class {
+public protocol ARCHListDataSourceDelegate: AnyObject {
     func configure(cell: Any, viewModel: ARCHCellViewModel, indexPath: IndexPath)
     func configure(header: Any, viewModel: ARCHHeaderFooterViewModel, indexPath: IndexPath)
     func configure(footer: Any, viewModel: ARCHHeaderFooterViewModel, indexPath: IndexPath)

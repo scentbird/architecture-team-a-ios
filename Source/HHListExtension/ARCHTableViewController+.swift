@@ -9,7 +9,7 @@
 import HHModule
 import HHList
 
-extension ARCHTableViewController: ARCHViewRenderable {
+extension ARCHTableViewController: HHModule.ARCHViewRenderable {
 
     public typealias ViewState = [D]
 

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import KeychainAccess
+internal import KeychainAccess
 
 open class ARCHKeychainUserStorage<U: ARCHUser, T: ARCHToken>: ARCHUserStorage<U, T> {
 
@@ -62,7 +62,7 @@ open class ARCHKeychainUserStorage<U: ARCHUser, T: ARCHToken>: ARCHUserStorage<U
         case token = "KeychainUserStorageToken"
     }
 
-    private func write<T: Codable>(value: T?, key: Keys) {
+    private func write<T1: Codable>(value: T1?, key: Keys) {
         debugLog?("[ARCHKeychainUserStorage] write value for key \(key.rawValue)")
 
         if let value = value {
@@ -77,7 +77,7 @@ open class ARCHKeychainUserStorage<U: ARCHUser, T: ARCHToken>: ARCHUserStorage<U
         }
     }
 
-    private func read<T: Codable>(key: Keys) -> T? {
+    private func read<T2: Codable>(key: Keys) -> T2? {
         debugLog?("[ARCHKeychainUserStorage] read value for key \(key.rawValue)")
 
         guard let data = try? keychain.getData(key.rawValue) else {
@@ -85,7 +85,7 @@ open class ARCHKeychainUserStorage<U: ARCHUser, T: ARCHToken>: ARCHUserStorage<U
             return nil
         }
 
-        guard let value = try? JSONDecoder().decode([T].self, from: data) else {
+        guard let value = try? JSONDecoder().decode([T2].self, from: data) else {
             debugLog?("[ARCHKeychainUserStorage] fail decode value")
             return nil
         }
@@ -101,11 +101,11 @@ open class ARCHKeychainUserStorage<U: ARCHUser, T: ARCHToken>: ARCHUserStorage<U
      JSONDecoder не может конвертировать объекты верхнего уровня String, Int, Bool
      Используется следующий костыль
      */
-    private func bridge<T: Codable>(value: T) -> [T] {
+    private func bridge<T3: Codable>(value: T3) -> [T3] {
         return [value]
     }
 
-    private func extractBridged<T>(value: [T]) -> T? {
+    private func extractBridged<T4>(value: [T4]) -> T4? {
         return value.first
     }
 }

@@ -16,7 +16,7 @@ public protocol ARCHToken: Codable {
     var value: String { get }
 }
 
-public protocol ARCHUserStorageDelegate: class {
+public protocol ARCHUserStorageDelegate: AnyObject {
     func didUpdateUser(from: ARCHUser?, to: ARCHUser?)
 }
 

@@ -15,7 +15,7 @@ public protocol ARCHState {
     init()
 }
 
-public protocol ARCHViewInput: class {
+public protocol ARCHViewInput: AnyObject {
 
     /**
      Обновлеяем вьюху на основании переданных данных

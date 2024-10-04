@@ -90,9 +90,6 @@
 		503FD71721400D0E008905ED /* ARCHCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHCollectionViewController.swift; sourceTree = "<group>"; };
 		503FD71A21401724008905ED /* ARCHDiffTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHDiffTableViewController.swift; sourceTree = "<group>"; };
 		503FD71D2140201C008905ED /* ARCHCollectionViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARCHCollectionViewController+.swift"; sourceTree = "<group>"; };
-		5067972D2124144F0034CDA2 /* ARCHNetworkError.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ARCHNetworkError.strings; sourceTree = "<group>"; };
-		5067972F212416B60034CDA2 /* ARCHLoggerMoyaPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHLoggerMoyaPlugin.swift; sourceTree = "<group>"; };
-		5067975021241A7E0034CDA2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5072DD95211D84B800E08A92 /* HHModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5072DD97211D84B800E08A92 /* HHModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHModule.h; sourceTree = "<group>"; };
 		5072DD98211D84B800E08A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,8 +127,6 @@
 		50954D20217E30500003610A /* ARCHWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHWindow.swift; sourceTree = "<group>"; };
 		50954D27217F250E0003610A /* ARCHModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHModule.swift; sourceTree = "<group>"; };
 		50AB16FF21C148400058F3B0 /* ARCHSectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHSectionTableViewController.swift; sourceTree = "<group>"; };
-		50BC80D62121757000D77262 /* ARCHNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHNetworkError.swift; sourceTree = "<group>"; };
-		50BC80D82121765900D77262 /* ARCHApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHApiResponse.swift; sourceTree = "<group>"; };
 		50C98546212AAFA20002EF4B /* ARCHCollectionViewPagingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHCollectionViewPagingManager.swift; sourceTree = "<group>"; };
 		50C98547212AAFA20002EF4B /* ARCHPagingManagerIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHPagingManagerIO.swift; sourceTree = "<group>"; };
 		50C98548212AAFA30002EF4B /* ARCHTableViewPagingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHTableViewPagingManager.swift; sourceTree = "<group>"; };
@@ -141,17 +136,8 @@
 		50C9855E212AE9D20002EF4B /* HHPagingManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHPagingManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C98560212AE9D20002EF4B /* HHPagingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPagingManager.h; sourceTree = "<group>"; };
 		50C98561212AE9D20002EF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50D0F3D22147A2010093E07F /* ARCHSkeletonViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHSkeletonViewProvider.swift; sourceTree = "<group>"; };
-		50D1DB882150E948005999F0 /* ARCHSkeletonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHSkeletonTableViewController.swift; sourceTree = "<group>"; };
-		50D1DB8B21511398005999F0 /* ARCHSkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHSkeletonView.swift; sourceTree = "<group>"; };
-		50D1DBC7215122B3005999F0 /* ARCHSkeletonCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHSkeletonCollectionViewController.swift; sourceTree = "<group>"; };
-		50D1DBCA21512550005999F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		50D26461212196B600E3B47A /* ARCHTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHTargetType.swift; sourceTree = "<group>"; };
-		50D264652121B03B00E3B47A /* ARCHAuthObserverMoyaPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHAuthObserverMoyaPlugin.swift; sourceTree = "<group>"; };
-		50D264782121FA1400E3B47A /* ARCHMoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHMoyaProvider.swift; sourceTree = "<group>"; };
 		50D2647D2122CEA400E3B47A /* ARCHUserStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHUserStorage.swift; sourceTree = "<group>"; };
 		50D2647F2122CEC400E3B47A /* ARCHKeychainUserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHKeychainUserStorage.swift; sourceTree = "<group>"; };
-		50D2648D21231EAE00E3B47A /* ARCHSignMoyaPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHSignMoyaPlugin.swift; sourceTree = "<group>"; };
 		50FA81EB211ACF8D00ADA769 /* ARCHEmptyListDataAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHEmptyListDataAdapter.swift; sourceTree = "<group>"; };
 		50FA8208211C630900ADA769 /* ARCHCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCHCellViewModel.swift; sourceTree = "<group>"; };
 		817301692CB039A700F563CC /* HHUserStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHUserStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -321,11 +307,9 @@
 				5089231F20FC8DA30032985E /* HHModule */,
 				5089232E20FC8DA30032985E /* HHList */,
 				5072DDC5211DD40A00E08A92 /* HHListExtension */,
-				50BC80B621216C6300D77262 /* HHNetwork */,
 				50D2647C2122CEA400E3B47A /* HHUserStorage */,
 				50C98545212AAFA20002EF4B /* HHPagingManager */,
 				507F14932137E67F0087DCDB /* HHIndication */,
-				50D0F3CF2146CE3E0093E07F /* HHSkeleton */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -468,30 +452,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50BC80B621216C6300D77262 /* HHNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				5067975021241A7E0034CDA2 /* README.md */,
-				50BC80BF21216C6300D77262 /* Plugins */,
-				50D264782121FA1400E3B47A /* ARCHMoyaProvider.swift */,
-				50BC80D82121765900D77262 /* ARCHApiResponse.swift */,
-				50BC80D62121757000D77262 /* ARCHNetworkError.swift */,
-				50D26461212196B600E3B47A /* ARCHTargetType.swift */,
-				5067972D2124144F0034CDA2 /* ARCHNetworkError.strings */,
-			);
-			path = HHNetwork;
-			sourceTree = "<group>";
-		};
-		50BC80BF21216C6300D77262 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				5067972F212416B60034CDA2 /* ARCHLoggerMoyaPlugin.swift */,
-				50D2648D21231EAE00E3B47A /* ARCHSignMoyaPlugin.swift */,
-				50D264652121B03B00E3B47A /* ARCHAuthObserverMoyaPlugin.swift */,
-			);
-			path = Plugins;
-			sourceTree = "<group>";
-		};
 		50C98545212AAFA20002EF4B /* HHPagingManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -512,18 +472,6 @@
 				50C98561212AE9D20002EF4B /* Info.plist */,
 			);
 			path = HHPagingManager;
-			sourceTree = "<group>";
-		};
-		50D0F3CF2146CE3E0093E07F /* HHSkeleton */ = {
-			isa = PBXGroup;
-			children = (
-				50D1DBCA21512550005999F0 /* README.md */,
-				50D1DB8B21511398005999F0 /* ARCHSkeletonView.swift */,
-				50D0F3D22147A2010093E07F /* ARCHSkeletonViewProvider.swift */,
-				50D1DB882150E948005999F0 /* ARCHSkeletonTableViewController.swift */,
-				50D1DBC7215122B3005999F0 /* ARCHSkeletonCollectionViewController.swift */,
-			);
-			path = HHSkeleton;
 			sourceTree = "<group>";
 		};
 		50D2647C2122CEA400E3B47A /* HHUserStorage */ = {
@@ -978,10 +926,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = HHModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -1014,10 +958,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = HHModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -1050,10 +990,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = HHListExtension/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -1086,10 +1022,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = HHListExtension/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;

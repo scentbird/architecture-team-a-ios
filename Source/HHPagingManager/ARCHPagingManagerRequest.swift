@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol ARCHPagingManagerCancellable: class {
+public protocol ARCHPagingManagerCancellable: AnyObject {
     func cancel()
 }
 

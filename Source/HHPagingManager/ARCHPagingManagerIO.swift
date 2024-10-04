@@ -10,7 +10,7 @@ import Foundation
 
 public typealias ARCHPagingManagerCompletion = (Int?, Int?) -> Void
 
-public protocol ARCHPagingManagerOutput: class {
+public protocol ARCHPagingManagerOutput: AnyObject {
 
     /**
      @param offset - смещение

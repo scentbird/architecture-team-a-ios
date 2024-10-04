@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol ARCHListDataSourceAdapter: class {
+public protocol ARCHListDataSourceAdapter: AnyObject {
     var sectionsCount: Int { get }
 
     func numberOfRowsIn(section: Int) -> Int

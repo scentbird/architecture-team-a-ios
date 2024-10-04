@@ -14,7 +14,7 @@ public protocol ARCHRouterOptions {
     func proccess(transition: ARCHTransition, animated: Bool) -> ARCHTransition
 }
 
-public protocol ARCHRouter: class {
+public protocol ARCHRouter: AnyObject {
     func transit(from: ARCHRouter?, options: [ARCHRouterOptions], animated: Bool)
 }
 
