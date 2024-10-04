@@ -1,7 +1,0 @@
-github "Alamofire/Alamofire" "5.0.5"
-github "Moya/Moya" "71180ee3b064b8c024dbec91865f2f3ca6325e20"
-github "ReactiveCocoa/ReactiveSwift" "6.2.1"
-github "ReactiveX/RxSwift" "5.1.0"
-github "gonzalonunez/Skeleton" "0.4.0"
-github "kishikawakatsumi/KeychainAccess" "v4.1.0"
-github "onmyway133/DeepDiff" "2.3.1"
