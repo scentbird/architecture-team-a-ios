@@ -7,12 +7,13 @@
 //
 
 import Foundation
+import UIKit
 
 public protocol ARCHModuleInput {
     func set(moduleOutput: ARCHModuleOutput)
 }
 
-public protocol ARCHModuleOutput: class {
+public protocol ARCHModuleOutput: AnyObject {
 }
 
 public protocol ARCHModule: ARCHSubModule {
